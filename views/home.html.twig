@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css'>
+        <link rel="stylesheet" href="/css/styles.css">
+        <title>Find and Replace</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="jumbotron"> 
+            <h1>Find and Replace</h1>
+            </div>
+            <form action='/results' method='post'>
+                <div class='form-group'>
+                    <label for='sentence'>Enter a Sentence:</label>
+                    <input id='sentence' name='sentence' class='form-control' type='text'>
+                    <br>
+                    <label for='word'>Enter a word from the sentence you wrote:</label>
+                    <input id='word' name='word' class='form-control' type='text'>
+                    <br>
+                    <label for='randWord'>Enter another random word:</label>
+                    <input id='randWord' name='randWord' class='form-control' type='text'>
+                </div>
+                <button type='submit' class='btn btn-success'>Replace!</button>
+            </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,22 @@
+body {
+    background-color: #f1e3dd;
+    color: #667292;
+}
+
+.phraseContainer {
+    background-color: white;
+    color: #8d9db6;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 5px 0;
+    padding-left: 10px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: #e1c3b7;
+}
+
+.output {
+    font-style: italic;
+}
